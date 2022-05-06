@@ -1,0 +1,170 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gowun Batang', serif;
+   /* overflow: hidden; */
+}
+
+.main-div {
+    background-image: url(COMMON_PROJECT/login.c8a507cf.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    height: 120vh;
+}
+   
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar>.container-fluid {
+    width: 80%;
+}
+
+.navbar a {
+    color: white;
+    /* background:transparent; */
+    font-family: heebo, sans-serif !important;
+}
+.nav-item{
+    padding: 8px 15px 8px 15px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.nav-link{
+    color: white;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: rgba(160, 160 , 160, 0.397);
+    border-radius: 5px;
+    color: white;
+}
+.active{
+    background-color: rgba(160, 160, 160, 0.397);
+    border-radius: 5px;
+    /* color: white; */
+}
+.fa-bars{
+    color: white;
+    margin-top: 5px;
+}
+
+
+
+
+.icons {
+    background: rgb(232,56,117);
+    width: 340px;
+    height: 140px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* height: 77px; */
+    position: relative;
+    border-radius: 5px;
+    top: -25px;
+}
+
+.header a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.card-body{
+    border-radius: 10px !important;
+    width: 370px;
+}
+.card-body::placeholder{
+    color: rgb(216, 216, 216) !important;
+    font-weight: 600 !important;
+}
+
+.in-div {
+    border-bottom: 1px solid rgb(216,216,216) !important;
+    padding: 10px;
+    margin: 5px;
+}
+.in-div i{
+    font-size: 20px;
+}
+.in-div span{
+    background-color: white !important;
+    border: none !important;
+}
+
+form input {
+    width: 270px;
+    border: none;
+}
+.letsgo{
+    text-decoration: none;
+    color: rgb(232,56,117);
+}
+
+input:focus {
+  outline: none;
+}
+.h-100 {
+    height: 75%!important;
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background-color:rgb(21,29,42);
+    /* background-position: top; */
+    background-size: cover;
+    display: flex   ;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-right: auto!important;
+    margin-bottom: 0px;
+}
+
+footer h6 {
+    color: white;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+footer ul li {
+    margin: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+}
+
+@media only screen and (max-width:550px) {
+    .navbar {
+        width: 100%;
+    }
+    .footer{
+        display: block !important;
+    }  
+}

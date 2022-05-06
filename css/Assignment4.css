@@ -1,0 +1,252 @@
+body{
+	height: 3000px;
+}
+.port{
+	background-color: #2C3E50;
+	color: white !important;
+	height: 50px;
+	width: 1020px;
+	font-size: 30px;
+	display: table;
+	padding-top: 15px;
+	padding-left: 35px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.text{
+	display: table-cell;
+	color: white !important;
+	vertical-align: middle;
+	font-size: 15px;
+	padding-top: 15px;
+	
+}
+.ava{
+	width: 250px;
+	background-image: url('avataaars.png');
+	background-size: cover;
+	margin-left: 39%;
+	margin-top: 10%;
+	height: 270px;
+	
+	
+
+}
+.boot{
+	height: 100px;
+	width: 1300px;
+	margin-top: -20%;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 60px;
+	line-height: 80px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+p{
+	font-size: 30px;
+	font-family: 'Gowun Batang', serif;
+}
+.star{
+	height: 50px;
+	border: 2px solid red;
+
+}
+
+.page1{
+	height: 670px;
+	color: white;
+	background-color: #1ABC9C;
+}
+.cabin{
+	height: 270px;
+	background-image: url('cabin.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	margin: 15px;
+}
+.cake{
+	height: 270px;
+	background-image: url('cake.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	margin: 15px;
+	
+}
+.circus{
+	height: 270px;
+	background-image: url('circus.png');
+	background-size: cover;
+	border-radius: 10px;
+	margin: 15px;
+}
+.page2{
+	height: 300px;
+}
+.folio{
+	height: 100px;
+	width: 1300px;
+	margin-top: 10%;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 60px;
+	line-height: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.flex1{
+	height: 300px;
+	margin-top:4%;
+	justify-content: center;
+	
+}
+.game{
+	height: 270px;
+	background-image: url('game.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	margin: 15px;
+}
+.safe{
+	height: 270px;
+	background-image: url('safe.png');
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	margin: 15px;
+}
+.sub{
+	height: 270px;
+	background-image: url('submarine.png');
+	background-size: cover;
+	border-radius: 10px;
+	margin: 15px;
+}
+
+.mdo1{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 152.6%;
+	left: 9.3%;
+	background-color: transparent;
+
+}
+.mdo1:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.fat{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 152.5%;
+	left: 36.5%;
+	background-color: transparent;
+
+}
+.fat:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.get{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 152.7%;
+	left: 63.6%;
+	background-color: transparent;
+
+}
+.get:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.text2{
+	font-size: 20px;
+	margin-left: 18%;
+	margin-top: 4%;
+	font-family: 'Gowun Batang', serif;
+
+}
+.head{
+	margin-right: 300px;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.log{
+	height: 70px;
+	width: 1100px;
+	text-align: center;
+	font-size: 40px;
+	line-height: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.pics{
+	margin-top: 8%;
+	margin-left: 20%;
+	border-radius: 10px;
+}
+.close{
+	margin-right: 48%;
+}
+.gam{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 208%;
+	left: 9.3%;
+	background-color: transparent;
+
+}
+.gam:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.gam{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 208%;
+	left: 9.3%;
+	background-color: transparent;
+
+}
+.gam:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.saf{
+	height: 269px;
+	width: 340px;
+	border-radius: 10px;
+	border: none;
+	position: absolute;
+	top: 208%;
+	left: 36.5%;
+	background-color: transparent;
+
+}
+.saf:hover{
+	background-image: url('plus-image.jpg');
+	background-size: cover;
+	background-position: center;
+}

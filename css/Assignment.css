@@ -1,0 +1,41 @@
+body{
+	background-color: #F3F5FA;
+}
+.card1{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.team{
+ color: #37517E !important;
+ font-family: 'DM Serif Display', serif;
+ text-align: center;
+
+}
+.main{
+	margin-left: 10%;
+	text-align: left;
+
+}
+.t1{
+	margin-top: 20px;
+	border-radius: 50%;
+}
+h5{
+	color: #37517E;
+	font-weight: bold;
+	font-family: 'DM Serif Display', serif;
+}
+.social{
+	width:25px;
+	height:25px;
+	margin: 2px;
+	border-radius: 50px;
+	background-color: #EFF2F8;
+	border:1px solid #37517E;
+	
+}
+.media{
+	color: #37517E;
+	font-size: 12px !important;
+}

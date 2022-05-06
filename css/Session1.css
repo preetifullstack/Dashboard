@@ -1,0 +1,57 @@
+.abc{
+	border: 3px solid red;
+}
+.xyz{
+	padding: 30px;
+	background-color: pink;
+	border: 1px solid black;
+}
+
+.d2{
+	border: 3px solid black;
+
+}
+.d3{
+	margin: 10px;
+}
+.xyz3 {
+	color: white;
+	height: 105px;
+	background-color: tomato;
+	margin-right: 5px;
+	
+}
+.xyz4 {
+	color: white;
+	height: 40px;
+	background-color: lightgreen;
+	margin-bottom: 5px;
+	
+}
+.xyz5 {
+	color: white;
+	height: 60px;
+	background-color: purple;
+	margin-right: 5px;
+	
+}
+
+.xyz6 {
+	color: white;
+	height: 30px;
+	background-color: lightblue;
+
+}
+
+.pp{
+	background-color: blue !important;
+	color: red !important;
+}
+
+.accordion-button::after {
+   background-image: url('plus.png') !important;
+ }
+
+ .accordion-button:not(.collapsed)::after{
+   background-image: url('minus.png') !important;
+ }

@@ -1,0 +1,24 @@
+body{
+	height: 655px;
+	background-image: linear-gradient(to right, #527593, #5C3A86);
+}
+.grad{
+	height: 400px;
+	margin-top: 15%;
+	text-align: left;
+}
+.tt{
+	color: white;
+	background-image: linear-gradient(to right,#709BAB, #796FA1);
+    
+}
+.tr1{
+	background-image: linear-gradient(to right, #525E8D,#55608E);
+}
+.tr2{
+    background: linear-gradient(to right, #99BDC5, #A29FBE);
+}
+.th1{
+
+	background: linear-gradient(to left, #91A1BA, #8EABBB);
+}

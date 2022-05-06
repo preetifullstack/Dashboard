@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+}
+.main-div{
+    background: url(COMMON_PROJECT/bg-pricing.b1a66687.jpeg), rgba(0,0,0,0.1);
+    background-size: cover;
+    height: 140vh;
+}
+@media screen  and (max-width:1110px) {
+    .navbar-bg {
+        height: 100%;
+    } 
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar>.container-fluid {
+    width: 80%;
+}
+
+.navbar a {
+    color: white;
+    /* background:transparent; */
+    font-family: heebo, sans-serif !important;
+}
+.nav-item{
+    padding: 8px 15px 8px 15px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+.nav-link{
+    color: white;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background-color: rgba(160, 160 , 160, 0.397);
+    border-radius: 5px;
+    color: white;
+}
+.active{
+    background-color: rgba(160, 160, 160, 0.397);
+    border-radius: 5px;
+    /* color: white; */
+}
+.fa-bars{
+    color: white;
+    margin-top: 5px;
+}
+
+.act {
+    background-color: white;
+    border-radius: 5px;
+    color: #999;
+}
+.act h2{
+    color: #999!important;
+}
+.act h3{
+    color: #999!important;
+}
+
+.act i {
+    border: 1px solid palevioletred !important;
+    color: palevioletred !important;
+}
+
+.act button {
+    background-color: palevioletred !important;
+    color: white!important;
+}
+.navbar-toggler-icon{
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* first-section */
+
+.child-flex {
+    width: 270px;
+    height: 350px;
+    text-align: center;
+    /* background-color: gainsboro; */
+    margin: 10px;
+    padding: 20px;
+    /* box-shadow: -2px 2px 4px 2px rgb(12 12 12);   */
+}
+
+.child-flex h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(250, 244, 244);
+}
+
+.child-flex h2 {
+    font-size: 19px;
+    margin: 5px;
+    color: rgb(253, 253, 253);
+}
+
+.child-flex p{
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+}
+
+.icon {
+    /* background: aqua; */
+    border: 1px solid rgb(219, 219, 219);
+    color: white;
+    font-size: 42px;
+    width: 120px;
+    height: 120px;
+    margin: 3px;
+    padding: 22px;
+    border-radius: 50%;
+}
+.child-flex i {
+    border: 1px solid rgb(185, 185, 185) ;
+    color: white;
+    font-size: 42px;
+    width: 120px;
+    height: 120px;
+    margin: 3px;
+    padding-top: 20px !important;
+    border-radius: 50%;
+}
+.img-icon{
+    width: 55px !important;
+    height: 55px !important;
+}
+
+.child-flex button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    color: #999;
+}
+
+
+
+/* footer */
+footer{
+    background-color:rgb(21, 29, 42);
+    background-size: cover;
+    display: flex;
+    margin: 0px;
+    width: 100%; 
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    margin-right: auto!important;
+    margin-bottom: 0px;
+}
+
+footer h6 {
+    color: white;
+    width: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+footer ul li {
+    margin: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+}
+
+@media only screen and (max-width:550px) {
+    .navbar {
+        width: 100% !important;
+    }
+    .footer{
+        display: block !important;
+    }  
+}
+
+@media only screen and (max-width:550px) {
+    .main-div{
+        height: auto !important;
+    }
+    .navbar>.container-fluid {
+        width: 100% !important;
+    } 
+}
